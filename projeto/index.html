@@ -7,8 +7,16 @@
     <title>Document</title>
 </head>
 <body>
-    <h2 id="area">Bem vindo(a)!</h2>
-    <button onclick="entrar()">Acessar</button>
+    <form onsubmit="return calcular(event)">
+        <label for="ipeso">Digite seu peso: </label> <br>
+        <input type="text" name="peso" id="ipeso" placeholder="Exemplo: 65"> <br>
+        <label for="ialtura">Digite sua altura: </label> <br>
+        <input type="text" name="altura" id="ialtura" placeholder="Exemplo: 1.75"> <br>
+        <br>
+        
+        <input type="submit" value="Calcular IMC">
+    </form>
+    <div id="res"></div>
 
     <script src="script.js"></script>
 </body>
