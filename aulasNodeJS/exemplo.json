@@ -1,0 +1,16 @@
+{
+    "usuario:"{
+        "nome":"Giovana",
+        "email":"giovanastbarbosa@gmail.com",
+        "sexo":"Feminino"
+    }
+}
+
+{
+    "nome":"Giovana",
+    "email":"giovana@email.com"
+}
+
+{
+    "token":"123123"
+}
